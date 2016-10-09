@@ -107,21 +107,5 @@ function computeTextRotation(d) {
 }
 
 </script>
-<script>
-$(document).ready(function() {
-    $('.menu').dropit();
-});
-</script>
-<ul class="menu">
-    <li>
-        <a href="#">Dropdown</a>
-        <ul>
-            <li><a href="#">Some Action 1</a></li>
-            <li><a href="#">Some Action 2</a></li>
-            <li><a href="#">Some Action 3</a></li>
-            <li><a href="#">Some Action 4</a></li>
-        </ul>
-    </li>
-</ul>
 </body>
 </html>

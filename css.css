@@ -1,15 +1,22 @@
 body{
 	
 	overflow: hidden;
+	font-family: "Calibri";
+	line-height: 190%;
 }
 
+h1 {
+	font-size: 25px;
+	color: #b38600;
+	font-family: "Lucida Sans Unicode";
+}
 h2 {
-	font-size: 30px;
+	font-size: 35px;
 	color: white;
 	font-family: "Lucida Sans Unicode";
 	letter-spacing:5px;
 	position: absolute;
-	left: 50%;
+	left: 200px;
 	top: 0px;
 }
 
@@ -20,33 +27,54 @@ h3  {
 	top: 700px;
 }
 
-#about {
-	position: absolute;
-	left: 4000px;
-	top: 50px;
-	width: 600px;
-}
 
 #sources {
 	position: absolute;
-	left: 7200px;
+	left: 3000px;
 	top: 50px;
 	width: 600px;
 }
 
 #textAbout {
 	position: absolute;
-	left: 3600px;
-	top: 50px;
-	width: 600px;
-}
-#textSources {
-	position: absolute;
-	left: 6000px;
-	top: 50px;
+	left: 200px;
+	top: 100px;
 	width: 600px;
 }
 
+#textSources {
+	position: absolute;
+	left: 2600px;
+	top: 50px;
+	width: 600px;
+	text-align: left;
+}
+
+ /* unvisited link */
+a:link {
+	color:  #b38600;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+
+/* visited link */
+a:visited {
+	color:  #b38600;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+
+/* mouse over link */
+a:hover {
+	color: #ee0000;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #ee0000;
+	text-decoration: none;
+}
 
 
 /* Dropdown Button */
@@ -61,7 +89,7 @@ h3  {
 .dropdown {
 	left: 25px;
 	background-color: #ee0000;
-	padding: 10px;
+	padding: 5px;
 	top: 2px;
 
 }
