@@ -3,6 +3,9 @@ h2 {
 	color: white;
 	font-family: "Lucida Sans Unicode";
 	letter-spacing:5px;
+	position: absolute;
+	left: 400px;
+	top: 0px;
 }
 
 h3  {
@@ -24,13 +27,10 @@ h3  {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-	position: absolute;
 	left: 25px;
 	background-color: #ee0000;
-	margin: 10px;
 	padding: 5px;
-	overflow:visible;
-	display: inline-block;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
