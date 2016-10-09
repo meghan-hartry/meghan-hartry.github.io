@@ -10,7 +10,6 @@ h3  {
 	position: absolute;
 	left: 10px;
 	top: 700px;
-	float: right;
 }
 
 
@@ -30,6 +29,7 @@ h3  {
 	background-color: #ee0000;
 	margin: 10px;
 	padding: 5px;
+	overflow:visible;
 }
 
 /* Dropdown Content (Hidden by Default) */
