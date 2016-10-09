@@ -2,9 +2,6 @@ h2 {
 	font-size: 30px;
 	color: white;
 	font-family: "Lucida Sans Unicode";
-	background-color: #ee0000;
-	margin: 10px;
-	padding: 5px;
 	letter-spacing:5px;
 }
 
@@ -30,7 +27,9 @@ h3  {
 .dropdown {
 	position: absolute;
 	left: 25px;
-
+	background-color: #ee0000;
+	margin: 10px;
+	padding: 5px;
 }
 
 /* Dropdown Content (Hidden by Default) */
