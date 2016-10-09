@@ -1,10 +1,14 @@
+body {
+	position: fixed;
+}
+
 h2 {
 	font-size: 30px;
 	color: white;
 	font-family: "Lucida Sans Unicode";
 	letter-spacing:5px;
 	position: absolute;
-	left: 400px;
+	left: 50%;
 	top: 0px;
 }
 
@@ -15,7 +19,17 @@ h3  {
 	top: 700px;
 }
 
+#about {
+	position: absolute;
+	left: 2000px;
+	top: 700px;
+}
 
+#sources {
+	position: absolute;
+	left: 4000px;
+	top: 700px;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -30,6 +44,7 @@ h3  {
 	left: 25px;
 	background-color: #ee0000;
 	padding: 10px;
+	top: 2px;
 
 }
 
