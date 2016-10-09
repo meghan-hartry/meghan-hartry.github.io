@@ -44,25 +44,25 @@ h3  {
 
  /* unvisited link */
 a:link {
-	color: "#6699ff";
+	color: #66a3ff;
 	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-	color: "#6699ff";
+	color: #66a3ff;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-	color: "#ff5050";
+	color: #ee0000;
 	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-	color: "#ff5050";
+	color: #ee0000;
 	text-decoration: none;
 }
 
