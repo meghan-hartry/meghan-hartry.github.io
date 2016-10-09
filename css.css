@@ -34,13 +34,13 @@ h3  {
 	width: 600px;
 }
 
-textAbout {
+#textAbout {
 	position: absolute;
-	left: 3200px;
+	left: 3600px;
 	top: 50px;
 	width: 600px;
 }
-textSources {
+#textSources {
 	position: absolute;
 	left: 5200px;
 	top: 50px;
