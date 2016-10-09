@@ -15,12 +15,7 @@ h3  {
 	top: 700px;
 }
 
-img.ham {
-	position: absolute;
-	top: 10px;
-	left: 25px;
-	height: 55px;
-}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -30,6 +25,10 @@ img.ham {
     font-size: 16px;
     border: none;
     cursor: pointer;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	height: 55px;
 }
 
 /* Dropdown button on hover & focus */
