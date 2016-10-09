@@ -1,4 +1,7 @@
-
+body{
+	
+	overflow: hidden;
+}
 
 h2 {
 	font-size: 30px;
@@ -19,14 +22,14 @@ h3  {
 
 #about {
 	position: absolute;
-	left: 2000px;
-	top: 700px;
+	left: 4000px;
+	top: 50px;
 }
 
 #sources {
 	position: absolute;
-	left: 4000px;
-	top: 700px;
+	left: 6000px;
+	top: 50px;
 }
 
 /* Dropdown Button */
