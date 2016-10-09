@@ -8,7 +8,6 @@ body{
 h1 {
 	color: #b38600;
 	font-family: "Lucida Sans Unicode";
-	text-decoration: underline;
 }
 h2 {
 	font-size: 30px;
@@ -45,7 +44,7 @@ h3  {
 #textSources {
 	position: absolute;
 	left: 2600px;
-	top: 50px;
+	top: 100px;
 	width: 600px;
 	text-align: left;
 }
