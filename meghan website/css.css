@@ -42,7 +42,29 @@ h3  {
 	text-align: left;
 }
 
+ /* unvisited link */
+a:link {
+	color: "#6699ff";
+	text-decoration: none;
+}
 
+/* visited link */
+a:visited {
+	color: "#6699ff";
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: "#ff5050";
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: "#ff5050";
+	text-decoration: none;
+}
 
 
 /* Dropdown Button */
