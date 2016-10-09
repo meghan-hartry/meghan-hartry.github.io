@@ -45,9 +45,6 @@ h3  {
     display: none;
     position: absolute;
     min-width: 160px;
-	top: 10px;
-	left: 25px;
-	height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -61,7 +58,3 @@ h3  {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
