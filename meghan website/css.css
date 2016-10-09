@@ -1,8 +1,15 @@
 body{
 	
 	overflow: hidden;
+	font-family: "Calibri";
+	background-color: #f2f2f2;
 }
 
+h1 {
+	color: #b38600;
+	font-family: "Lucida Sans Unicode";
+	text-decoration: underline;
+}
 h2 {
 	font-size: 30px;
 	color: white;
@@ -33,10 +40,16 @@ h3  {
 	left: 200px;
 	top: 100px;
 	width: 600px;
+	background-color: white;
+	padding-top: 25px;
+	padding-left: 125px;
+	padding-right: 125px;
+	padding-bottom: 200px;
 }
+
 #textSources {
 	position: absolute;
-	left: 2400px;
+	left: 2600px;
 	top: 50px;
 	width: 600px;
 	text-align: left;
@@ -44,14 +57,16 @@ h3  {
 
  /* unvisited link */
 a:link {
-	color: #66a3ff;
+	color:  #b38600;
 	text-decoration: none;
+	border-bottom: 1px dotted #000;
 }
 
 /* visited link */
 a:visited {
-	color: #66a3ff;
+	color:  #b38600;
 	text-decoration: none;
+	border-bottom: 1px dotted #000;
 }
 
 /* mouse over link */
