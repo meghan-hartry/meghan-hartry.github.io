@@ -30,6 +30,7 @@ h3  {
 	margin: 10px;
 	padding: 5px;
 	overflow:visible;
+	display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
