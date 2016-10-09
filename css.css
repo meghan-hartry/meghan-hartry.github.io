@@ -36,6 +36,9 @@ h3  {
 .dropdown {
     position: absolute;
     display: inline-block;
+	top: 10px;
+	left: 25px;
+	height: 55px;
 }
 
 /* Dropdown Content (Hidden by Default) */
