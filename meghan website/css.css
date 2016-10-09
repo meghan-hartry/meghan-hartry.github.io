@@ -1,7 +1,6 @@
 body{
 	
 	overflow: hidden;
-
 }
 
 h2 {
@@ -21,32 +20,28 @@ h3  {
 	top: 700px;
 }
 
-#about {
-	position: absolute;
-	left: 4000px;
-	top: 50px;
-	width: 600px;
-}
 
 #sources {
 	position: absolute;
-	left: 7200px;
+	left: 3000px;
 	top: 50px;
 	width: 600px;
 }
 
 #textAbout {
 	position: absolute;
-	left: 3600px;
-	top: 50px;
+	left: 200px;
+	top: 100px;
 	width: 600px;
 }
 #textSources {
 	position: absolute;
-	left: 6000px;
+	left: 2400px;
 	top: 50px;
 	width: 600px;
+	text-align: left;
 }
+
 
 
 
