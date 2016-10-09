@@ -6,11 +6,12 @@ body{
 }
 
 h1 {
+	font-size: 25px;
 	color: #b38600;
 	font-family: "Lucida Sans Unicode";
 }
 h2 {
-	font-size: 30px;
+	font-size: 35px;
 	color: white;
 	font-family: "Lucida Sans Unicode";
 	letter-spacing:5px;
