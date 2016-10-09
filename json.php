@@ -4,7 +4,7 @@ $usr = "unexperienced";
 $pswd = "whatishappening";
 $con = new PDO($host, $usr, $pswd, array(PDO::ATTR_PERSISTENT => TRUE ));
 $shortmajorsarray = array();
-$findshortmajors = "SELECT DISTINCT `shortmajor` FROM leepfrog";
+$findshortmajors = "SELECT DISTINCT `shortmajor` FROM leepfrog ORDER BY `shortmajor`";
 $s = $con->prepare($findshortmajors);
 $s->execute();
 $results = $s->fetchAll(PDO::FETCH_ASSOC);
@@ -17,11 +17,11 @@ if ($results){
 }
 $c = count($shortmajorsarray);
 echo "{";
-echo "\"name\":&nbsp;\"all\",\"children\": [{";
+echo "\"name\":\"ALL\",\"children\": [{";
 
 
 for ($i=0;$i<$c;$i++){
-	echo "\"name\":&nbsp;\"" . $shortmajorsarray[$i] . "\",
+	echo "\"name\":\"" . $shortmajorsarray[$i] . "\",
 	\"children\": [";
 	
 	$majorcodesarray = array();
@@ -47,7 +47,7 @@ for ($i=0;$i<$c;$i++){
 		array_push($majorcodenumberarray,$UETs[0]);
 	}
 	for ($j=0; $j<$d;$j++){
-		echo "{\"name\":&nbsp;\"" . $majorcodesarray[$j] . "\", \"size\":&nbsp;" . $majorcodenumberarray[$j] . "},";
+		echo "{\"name\":\"" . $majorcodesarray[$j] . "\", \"size\":" . $majorcodenumberarray[$j] . "},";
 	}
 echo "]}";
 	echo ",{";	
